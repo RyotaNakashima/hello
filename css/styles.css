@@ -1,0 +1,227 @@
+*{
+    box-sizing:border-box;
+}
+body{
+   color:rgba(0,0,0,0,8);
+   margin:0;
+}
+header{
+    position:fixed;
+    width:100%;
+    background-color:white;
+    z-index:999;
+}
+header img{
+    width:130px;
+}
+
+header > .container > p{
+      display:inline-block;
+      font-size:12px;
+      font-weight:600;
+      position:relative;
+      bottom:10px;
+      color:#333333;
+}
+.btn1{
+    float:right;
+    width:260px;
+    height:44px;
+    border:1px solid white;
+    background:#da6b64;
+    border-radius:25px;
+}
+
+.btn1 a{
+    color:white;
+    font-size:12px;
+    text-decoration:none;
+    display:block;
+    height:100%;
+    padding-top:11px ;
+    top:0;
+    left:0;
+    font-weight:normal;
+    text-align:center;
+}
+.btn1:hover{
+    background:#d84940;
+}
+.section1 > .container{
+    padding:15px 10px;
+    height:75px;
+}
+.main{
+    height:1000px;
+    padding-top:75px;
+    letter-spacing:1px;
+    
+    
+
+}
+.section1{
+    background-image:url(/main.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.section1 > .container{
+    height:500px;
+    text-align:center;
+    padding:80px 0;
+}
+.section1  p{
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+.mainlogo{
+    width:330px;
+    margin-bottom:10px;
+}
+h1{
+    font-size:16px;
+}
+.section2{
+    background:#ebb94d;
+    color:white;
+    text-align:center;
+    margin-bottom:50px;
+}
+.section2 .container{
+    padding-top:20px;
+}
+.section2-message p {
+    font-size:16px;
+    font-weight:normal;
+}
+.btn2{
+    border:1px solid #EAB857;
+    border-radius:25px;
+    background:#da6b64;
+    width: 800px;
+    height: 75px;
+    margin: 0 auto;
+   
+}
+.btn2 a{
+    color:white;
+    font-size:18px;
+    text-decoration:none;
+    display:block;
+    height:100%;
+    padding:25px 50px;
+    top:0;
+    left:0;
+    font-weight:normal;
+    text-align:center;
+    cursor:pointer;
+   
+}
+.warning{
+    background:white;
+    color:#da6b64;
+    font-size:14px;
+    font-weight:600;
+    border-radius:25px;
+    line-height:8px;
+}
+.section2 li{
+    list-style:none;
+    display:inline;
+}
+
+
+
+
+
+
+   
+
+/* ///freedom//// */
+.freedom{
+    background-image:url("/introbottom.jpg");
+    background-size:cover;
+    height:587px;
+    text-align:center;
+    width:1024px;
+    position:relative;
+
+}
+.txtbox{
+    width:860px;
+    max-width: calc(100% - 40px);
+    margin:0 auto;
+    position:relative;
+    
+}
+
+
+ .freedom .txtbox .txtl{
+     padding:30px 0 30px 0;
+ }
+ .freedom-text p {
+     font-size:20px;
+     margin:0;
+ }
+
+.freedom > .txtbox > h1{
+    font-size:28px;
+}
+.border{
+     background:linear-gradient(transparent 70%, #EAB857 0%);
+}
+.about-btn{
+    color:white;
+    background:#EAB857;
+    height: 80px;
+    width:80px;
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-40px;
+    margin:0 auto;
+    z-index:50;
+}
+/* //ボタンの高さとliner-heightをおなじにする// */
+.about-btn{
+    line-height:80px;
+}
+.section3{
+    background:#fef5e0;
+    padding-top:40px;
+    width:1024px;
+    text-align:center;
+}
+.about.txtm{
+    font-weight:bold;
+    margin-bottom:25px;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+.about-box{
+    margin:30px;
+    padding:20px;
+    padding-bottom:0;`
+    border-radius: 3px;
+    background-color:#fff;
+    height:230px;
+    border:2px solid #EAB857;
+}
+.picturebox{
+    text-align:center;
+    width:155px;
+    height:135px;
+}
+.txto{
+    font-size:24px;
+}
+
+
+.divider{
+    background:blue;
+}
+
